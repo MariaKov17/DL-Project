@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6dd7bfecf506b1d0962414efc7ad0aa2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6dd7bfecf506b1d0962414efc7ad0aa2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6dd7bfecf506b1d0962414efc7ad0aa2 = L.map(
+                "map_6dd7bfecf506b1d0962414efc7ad0aa2",
+                {
+                    center: [48.521637, 9.057645],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    worldCopyJump: true,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5f1032664cf593cdf0ebcecae576961a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_5f1032664cf593cdf0ebcecae576961a.addTo(map_6dd7bfecf506b1d0962414efc7ad0aa2);
+        
+    
+            var marker_21847584686d3da29bd53f0edf9205ad = L.marker(
+                [48.521637, 9.057645],
+                {}
+            ).addTo(map_6dd7bfecf506b1d0962414efc7ad0aa2);
+        
+    
+            var icon_df8616ff6c276e5a8ee91dcf8fa03fa1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "user", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_21847584686d3da29bd53f0edf9205ad.setIcon(icon_df8616ff6c276e5a8ee91dcf8fa03fa1);
+        
+    
+            marker_21847584686d3da29bd53f0edf9205ad.bindTooltip(
+                `<div>
+                     Your Location
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_82e8827ce491a1a384319fa1f4c22c9f = L.marker(
+                [47.525, 10.80833],
+                {}
+            ).addTo(map_6dd7bfecf506b1d0962414efc7ad0aa2);
+        
+    
+            var icon_c92f545566ee91e69ea6c502786d8ef4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "eye-open", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_82e8827ce491a1a384319fa1f4c22c9f.setIcon(icon_c92f545566ee91e69ea6c502786d8ef4);
+        
+    
+            marker_82e8827ce491a1a384319fa1f4c22c9f.bindTooltip(
+                `<div>
+                     Distance: 171.26Km<br>name: Neuschwanstein, id: 16950, type: Valid, class: EL6<br>
+                   mass: 6.19Kg, fall: Fell, year: 2002, 
+                   latitude: 47.525, longitude: 10.80833
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_fb4e83fad06a44aec74a3d974b49e12f = L.polyline(
+                [[48.521637, 9.057645], [47.525, 10.80833]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6dd7bfecf506b1d0962414efc7ad0aa2);
+        
+    
+            var marker_2daaf864ea09d464468b453059ba2ecf = L.marker(
+                [47.02633, 10.27333],
+                {}
+            ).addTo(map_6dd7bfecf506b1d0962414efc7ad0aa2);
+        
+    
+            var icon_d2efea55ce96f707446a7a2abe132421 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "eye-close", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2daaf864ea09d464468b453059ba2ecf.setIcon(icon_d2efea55ce96f707446a7a2abe132421);
+        
+    
+            marker_2daaf864ea09d464468b453059ba2ecf.bindTooltip(
+                `<div>
+                     Distance: 189.58Km<br>name: Ischgl, id: 56431, type: Valid, class: LL6<br>
+                   mass: 724.0g, fall: Found, year: 1976, 
+                   latitude: 47.02633, longitude: 10.27333
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_3a7b03329775e9871da9b8df0743370f = L.polyline(
+                [[48.521637, 9.057645], [47.02633, 10.27333]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6dd7bfecf506b1d0962414efc7ad0aa2);
+        
+    
+            var marker_a23dae597fb79532857a0c3e47256c87 = L.marker(
+                [46.81667, 9.71667],
+                {}
+            ).addTo(map_6dd7bfecf506b1d0962414efc7ad0aa2);
+        
+    
+            var icon_369c602a078d3b2da13b5663baf4d510 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "eye-close", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a23dae597fb79532857a0c3e47256c87.setIcon(icon_369c602a078d3b2da13b5663baf4d510);
+        
+    
+            marker_a23dae597fb79532857a0c3e47256c87.bindTooltip(
+                `<div>
+                     Distance: 195.92Km<br>name: Langwies, id: 12462, type: Valid, class: H6<br>
+                   mass: 16.5g, fall: Found, year: 1985, 
+                   latitude: 46.81667, longitude: 9.71667
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_36a8cb3d1734485cabe053cde6b83840 = L.polyline(
+                [[48.521637, 9.057645], [46.81667, 9.71667]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6dd7bfecf506b1d0962414efc7ad0aa2);
+        
+    
+            var marker_83ca183bd62fce39bedfc1539db2cd3a = L.marker(
+                [47.12444, 7.17889],
+                {}
+            ).addTo(map_6dd7bfecf506b1d0962414efc7ad0aa2);
+        
+    
+            var icon_231faf82115cbf0f3ef869956ae8b393 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "eye-close", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_83ca183bd62fce39bedfc1539db2cd3a.setIcon(icon_231faf82115cbf0f3ef869956ae8b393);
+        
+    
+            marker_83ca183bd62fce39bedfc1539db2cd3a.bindTooltip(
+                `<div>
+                     Distance: 209.57Km<br>name: Twannberg, id: 24088, type: Valid, class: Iron, IIG<br>
+                   mass: 20.69Kg, fall: Found, year: 1984, 
+                   latitude: 47.12444, longitude: 7.17889
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ac01d294347da6b5045652108f92d08a = L.polyline(
+                [[48.521637, 9.057645], [47.12444, 7.17889]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6dd7bfecf506b1d0962414efc7ad0aa2);
+        
+    
+            var marker_19f8ab55be68771a479c6b74141b897d = L.marker(
+                [49.87361, 6.50556],
+                {}
+            ).addTo(map_6dd7bfecf506b1d0962414efc7ad0aa2);
+        
+    
+            var icon_294adb0e31c2c08e3f8091af4ad35d21 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "eye-close", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_19f8ab55be68771a479c6b74141b897d.setIcon(icon_294adb0e31c2c08e3f8091af4ad35d21);
+        
+    
+            marker_19f8ab55be68771a479c6b74141b897d.bindTooltip(
+                `<div>
+                     Distance: 239.15Km<br>name: Gilzem, id: 10916, type: Valid, class: H5<br>
+                   mass: 436.0g, fall: Found, year: 1987, 
+                   latitude: 49.87361, longitude: 6.50556
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_661144e9898a7600948081f921fada46 = L.polyline(
+                [[48.521637, 9.057645], [49.87361, 6.50556]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6dd7bfecf506b1d0962414efc7ad0aa2);
+        
+    
+            var marker_1f3e81631025375c58d21ac55e1f492a = L.marker(
+                [50.66694, 8.18361],
+                {}
+            ).addTo(map_6dd7bfecf506b1d0962414efc7ad0aa2);
+        
+    
+            var icon_b3a743bdcecb655c102aff7aa6f90f6d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "eye-open", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_1f3e81631025375c58d21ac55e1f492a.setIcon(icon_b3a743bdcecb655c102aff7aa6f90f6d);
+        
+    
+            marker_1f3e81631025375c58d21ac55e1f492a.bindTooltip(
+                `<div>
+                     Distance: 246.82Km<br>name: Breitscheid, id: 5134, type: Valid, class: H5<br>
+                   mass: 1.5Kg, fall: Fell, year: 1956, 
+                   latitude: 50.66694, longitude: 8.18361
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_759c524a6724d94d2f1cb4afab221be4 = L.polyline(
+                [[48.521637, 9.057645], [50.66694, 8.18361]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6dd7bfecf506b1d0962414efc7ad0aa2);
+        
+    
+            var marker_b8292067a2c58989f1bd35acef689d70 = L.marker(
+                [46.83667, 6.49472],
+                {}
+            ).addTo(map_6dd7bfecf506b1d0962414efc7ad0aa2);
+        
+    
+            var icon_06e41f77e56c419e44127b4b3b38b3ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "eye-close", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b8292067a2c58989f1bd35acef689d70.setIcon(icon_06e41f77e56c419e44127b4b3b38b3ae);
+        
+    
+            marker_b8292067a2c58989f1bd35acef689d70.bindTooltip(
+                `<div>
+                     Distance: 268.54Km<br>name: Ste. Croix, id: 23098, type: Valid, class: Iron, IIIAB<br>
+                   mass: 4.8g, fall: Found, year: 1988, 
+                   latitude: 46.83667, longitude: 6.49472
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_4af24bab1d2703dbce1fbaffdc3bd166 = L.polyline(
+                [[48.521637, 9.057645], [46.83667, 6.49472]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6dd7bfecf506b1d0962414efc7ad0aa2);
+        
+    
+            var marker_aacdaf29870c5d13bbe15d4d70993d2c = L.marker(
+                [50.58333, 6.16667],
+                {}
+            ).addTo(map_6dd7bfecf506b1d0962414efc7ad0aa2);
+        
+    
+            var icon_1f5e10e766f114196b88060c4430e229 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "eye-close", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_aacdaf29870c5d13bbe15d4d70993d2c.setIcon(icon_1f5e10e766f114196b88060c4430e229);
+        
+    
+            marker_aacdaf29870c5d13bbe15d4d70993d2c.bindTooltip(
+                `<div>
+                     Distance: 310.34Km<br>name: Hautes Fagnes, id: 52854, type: Valid, class: LL5<br>
+                   mass: 185.0g, fall: Found, year: 1965, 
+                   latitude: 50.58333, longitude: 6.16667
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_d03d18a1cd89fb637acab56a299e7b30 = L.polyline(
+                [[48.521637, 9.057645], [50.58333, 6.16667]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6dd7bfecf506b1d0962414efc7ad0aa2);
+        
+    
+            var marker_06bbc57cbbbf8edebc6dcbcedeea35ef = L.marker(
+                [49.55, 4.86667],
+                {}
+            ).addTo(map_6dd7bfecf506b1d0962414efc7ad0aa2);
+        
+    
+            var icon_bbac9c51efdb644f516120dc841cf03b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "eye-close", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_06bbc57cbbbf8edebc6dcbcedeea35ef.setIcon(icon_bbac9c51efdb644f516120dc841cf03b);
+        
+    
+            marker_06bbc57cbbbf8edebc6dcbcedeea35ef.bindTooltip(
+                `<div>
+                     Distance: 327.03Km<br>name: Mont Dieu, id: 16722, type: Valid, class: Iron, ungrouped<br>
+                   mass: 360.0Kg, fall: Found, year: 1994, 
+                   latitude: 49.55, longitude: 4.86667
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_d73cc83e45baecf915cf1740940a7a6c = L.polyline(
+                [[48.521637, 9.057645], [49.55, 4.86667]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6dd7bfecf506b1d0962414efc7ad0aa2);
+        
+    
+            var marker_6b3770494271fc129cd7a3c5bc79a44e = L.marker(
+                [51.66667, 9.25],
+                {}
+            ).addTo(map_6dd7bfecf506b1d0962414efc7ad0aa2);
+        
+    
+            var icon_e094bc74926484d0c709bd6273ef7d30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "eye-open", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_6b3770494271fc129cd7a3c5bc79a44e.setIcon(icon_e094bc74926484d0c709bd6273ef7d30);
+        
+    
+            marker_6b3770494271fc129cd7a3c5bc79a44e.bindTooltip(
+                `<div>
+                     Distance: 350.09Km<br>name: Peckelsheim, id: 18181, type: Valid, class: Diogenite-pm<br>
+                   mass: 117.8g, fall: Fell, year: 1953, 
+                   latitude: 51.66667, longitude: 9.25
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_a9c2db57a49337fec9f9a9c1bb98b292 = L.polyline(
+                [[48.521637, 9.057645], [51.66667, 9.25]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6dd7bfecf506b1d0962414efc7ad0aa2);
+        
+</script>
+</html>
