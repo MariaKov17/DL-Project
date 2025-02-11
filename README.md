@@ -39,5 +39,11 @@ Welcome to the repository for our research project exploring how human socio-eco
 
 ---
 
+## Contributions
+  ##Nongying Li:  Data collection, cleaning, model development, and overall supervision.
 
+## License
+This project is open-source and available for academic and research purposes. Contributions, feedback, and collaborations are welcome!
 
+Happy exploring, and let’s push the boundaries of interdisciplinary research together!
+— Nongying Li and the Team
