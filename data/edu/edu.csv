@@ -1,0 +1,223 @@
+COUNTRY,TOP 100,101-500,501-1000,1001-5000,5001-10000,TOTAL
+USA,53,97,89,536,1569,3180
+United Kingdom,8,36,33,63,51,337
+China,6,44,66,458,188,2495
+Australia,6,17,12,7,19,187
+Canada,6,16,9,38,80,383
+Netherlands,5,6,2,17,23,129
+Switzerland,3,4,3,14,21,103
+Hong Kong,3,1,2,4,4,21
+Belgium,2,3,3,7,12,142
+Singapore,2,0,2,5,14,45
+Germany,1,34,20,68,108,461
+Japan,1,11,10,170,208,992
+Brazil,1,5,11,168,148,1264
+Finland,1,4,4,7,15,42
+Denmark,1,4,1,3,4,81
+Norway,1,3,1,17,7,47
+Italy,0,19,23,40,25,289
+Spain,0,15,23,47,29,276
+France,0,12,20,116,78,625
+Sweden,0,10,1,19,5,46
+South Korea,0,7,15,76,41,401
+Israel,0,5,2,20,18,55
+South africa,0,4,4,15,4,124
+Malaysia,0,4,2,34,21,351
+Portugal,0,4,2,32,19,109
+Taiwan,0,3,9,61,34,164
+Austria,0,3,7,17,21,84
+Saudi Arabia,0,3,4,34,11,68
+Greece,0,3,4,18,9,66
+Ireland,0,3,3,8,11,71
+New Zealand,0,3,3,7,7,53
+Russia,0,2,12,114,152,1010
+Iran,0,2,9,118,31,440
+Thailand,0,2,5,31,63,192
+Czech Republic,0,2,2,17,9,64
+Chile,0,2,1,39,8,130
+Poland,0,1,8,63,29,408
+Hungary,0,1,5,10,7,69
+Mexico,0,1,4,56,48,1139
+Argentina,0,1,2,42,38,146
+Serbia,0,1,1,5,9,94
+Estonia,0,1,0,4,2,31
+Slovenia,0,1,0,3,2,55
+India,0,0,18,285,377,5349
+Turkey,0,0,8,128,43,209
+Indonesia,0,0,6,65,325,3277
+Egypt,0,0,5,44,8,79
+UAE,0,0,3,20,19,72
+Pakistan,0,0,2,70,43,359
+Romania,0,0,2,34,16,102
+Jordan,0,0,2,21,5,37
+Colombia,0,0,1,59,67,299
+Vietnam,0,0,1,26,45,186
+Peru,0,0,1,25,40,125
+Slovakia,0,0,1,16,5,36
+Philippines,0,0,1,15,59,366
+Lebanon,0,0,1,8,6,47
+Lithuania,0,0,1,7,5,40
+Cyprus,0,0,1,7,1,38
+Croatia,0,0,1,5,6,46
+Qatar,0,0,1,5,4,17
+Puerto Rico,0,0,1,4,9,38
+Macau,0,0,1,3,3,11
+Iceland,0,0,1,2,4,9
+Luxembourg,0,0,1,0,2,5
+Malta,0,0,1,0,0,9
+Nigeria,0,0,0,44,55,278
+Iraq,0,0,0,44,24,124
+Bangladesh,0,0,0,41,29,170
+Ukraine,0,0,0,40,70,300
+Algeria,0,0,0,34,25,108
+Ecuador,0,0,0,29,23,71
+Morocco,0,0,0,17,14,154
+Bulgaria,0,0,0,14,17,56
+Tunisia,0,0,0,12,16,236
+Sri Lanka,0,0,0,11,6,59
+Ethiopia,0,0,0,11,1,67
+Palestine,0,0,0,10,4,29
+Kenya,0,0,0,9,26,124
+Kazakhstan,0,0,0,9,16,130
+Belarus,0,0,0,8,26,57
+Ghana,0,0,0,8,10,88
+Oman,0,0,0,7,11,39
+Venezuela,0,0,0,7,10,73
+Bosnia & Herzegovina,0,0,0,7,6,46
+Uzbekistan,0,0,0,6,20,179
+Uganda,0,0,0,6,9,69
+Cuba,0,0,0,6,9,38
+Tanzania,0,0,0,6,7,49
+Costa Rica,0,0,0,6,5,68
+Kuwait,0,0,0,6,1,13
+Azerbaijan,0,0,0,5,6,47
+Zimbabwe,0,0,0,5,6,19
+Bahrain,0,0,0,5,5,13
+Cameroon,0,0,0,5,4,25
+Macedonia,0,0,0,5,3,23
+(),0,0,0,5,1,16
+Sudan,0,0,0,4,15,64
+Libya,0,0,0,4,8,58
+Latvia,0,0,0,4,8,55
+Georgia,0,0,0,4,6,61
+Albania,0,0,0,3,11,44
+Syria,0,0,0,3,11,43
+Bolivia,0,0,0,3,10,55
+Yemen,0,0,0,3,8,49
+Nepal,0,0,0,3,8,39
+Dominican Republic,0,0,0,3,7,59
+Armenia,0,0,0,3,5,51
+Moldova,0,0,0,3,5,25
+Guatemala,0,0,0,3,5,24
+Uruguay,0,0,0,2,11,42
+Panama,0,0,0,2,4,31
+International,0,0,0,2,4,10
+Mongolia,0,0,0,2,3,52
+Cambodia,0,0,0,2,2,49
+Zambia,0,0,0,2,2,42
+Malawi,0,0,0,2,2,26
+Botswana,0,0,0,2,2,13
+Trinidad & Tobago,0,0,0,2,1,15
+Brunei Darussalam,0,0,0,2,1,7
+Fiji,0,0,0,2,1,3
+Namibia,0,0,0,2,0,4
+El Salvador,0,0,0,1,7,38
+Krygyzstan,0,0,0,1,6,59
+Senegal,0,0,0,1,6,37
+Paraguay,0,0,0,1,5,49
+Honduras,0,0,0,1,5,17
+Afghanistan,0,0,0,1,4,96
+Nicaragua,0,0,0,1,4,49
+Congo Democratic Republic,0,0,0,1,3,43
+Jamaica,0,0,0,1,3,22
+Mozambique,0,0,0,1,3,16
+Cte d’Ivoire,0,0,0,1,2,22
+Mauritius,0,0,0,1,2,11
+Benin,0,0,0,1,1,30
+Montenegro,0,0,0,1,1,10
+Barbados,0,0,0,1,1,9
+Rwanda,0,0,0,1,0,19
+Madagascar,0,0,0,1,0,11
+Cape Verde,0,0,0,1,0,9
+Togo,0,0,0,1,0,8
+Laos,0,0,0,1,0,4
+Guam,0,0,0,1,0,3
+Liechtenstein,0,0,0,1,0,3
+Grenada,0,0,0,1,0,2
+Bahamas,0,0,0,1,0,2
+Lesotho,0,0,0,1,0,2
+Faroe Islands,0,0,0,1,0,1
+Greenland,0,0,0,1,0,1
+Virgin Islands (US),0,0,0,1,0,1
+Tajikistan,0,0,0,0,4,31
+Myanmar,0,0,0,0,3,87
+Burkina Faso,0,0,0,0,3,17
+Belize,0,0,0,0,3,6
+Somalia,0,0,0,0,2,107
+Bhutan,0,0,0,0,2,10
+Saint Kitts & Nevis,0,0,0,0,2,7
+Sierra Leone,0,0,0,0,2,7
+Papua New Guinea,0,0,0,0,2,6
+Guyana,0,0,0,0,2,6
+Gambia,0,0,0,0,2,4
+Dominica,0,0,0,0,2,4
+North Korea,0,0,0,0,2,3
+Angola,0,0,0,0,1,23
+Haiti,0,0,0,0,1,23
+Burundi,0,0,0,0,1,18
+Timor-Leste,0,0,0,0,1,7
+Liberia,0,0,0,0,1,7
+Cayman Islands,0,0,0,0,1,6
+Aruba,0,0,0,0,1,4
+Anguilla,0,0,0,0,1,4
+Guinea,0,0,0,0,1,3
+Andorra,0,0,0,0,1,3
+Antigua & Barbuda,0,0,0,0,1,3
+Seychelles,0,0,0,0,1,3
+Suriname,0,0,0,0,1,3
+Eswatini,0,0,0,0,1,3
+Republic of Congo,0,0,0,0,1,2
+Saint Vincent & the Grenadines,0,0,0,0,1,2
+Samoa,0,0,0,0,1,2
+Vatican City,0,0,0,0,1,2
+"Bonaire, Sint Eustatius and Saba",0,0,0,0,1,1
+Central African Republic,0,0,0,0,1,1
+Djibouti,0,0,0,0,1,1
+Micronesia,0,0,0,0,1,1
+Monaco,0,0,0,0,1,1
+French Polynesia,0,0,0,0,1,1
+San Marino,0,0,0,0,1,1
+Turkmenistan,0,0,0,0,0,29
+Gabon,0,0,0,0,0,13
+Mali,0,0,0,0,0,8
+Curaçao,0,0,0,0,0,8
+Maldives,0,0,0,0,0,5
+Chad,0,0,0,0,0,5
+Saint Lucia,0,0,0,0,0,4
+Mauritania,0,0,0,0,0,4
+Niger,0,0,0,0,0,2
+International Europe,0,0,0,0,0,2
+Kiribati,0,0,0,0,0,2
+Montserrat,0,0,0,0,0,2
+Turks & Caicos Islands,0,0,0,0,0,2
+Virgin Islands (British),0,0,0,0,0,2
+Vanuatu,0,0,0,0,0,2
+South Sudan,0,0,0,0,0,2
+Reunion,0,0,0,0,0,1
+American Samoa,0,0,0,0,0,1
+Bermuda,0,0,0,0,0,1
+Cook Islands,0,0,0,0,0,1
+French Guiana,0,0,0,0,0,1
+Gibraltar,0,0,0,0,0,1
+Equatorial Guinea,0,0,0,0,0,1
+Isle of Man,0,0,0,0,0,1
+Comoros,0,0,0,0,0,1
+Marshall Islands,0,0,0,0,0,1
+Northern Mariana Islands,0,0,0,0,0,1
+Martinique,0,0,0,0,0,1
+New Caledonia,0,0,0,0,0,1
+Niue,0,0,0,0,0,1
+Palau,0,0,0,0,0,1
+Solomon Islands,0,0,0,0,0,1
+Sint Maarten,0,0,0,0,0,1
+Tonga,0,0,0,0,0,1
